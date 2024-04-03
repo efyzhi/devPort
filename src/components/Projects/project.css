@@ -1,0 +1,21 @@
+.project {
+  height: 100vh;
+  /* background-color: aqua; */
+  /* max-width: 1700px; */
+  margin: 5rem auto;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}

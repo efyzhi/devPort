@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.5rem;  
+  /* color: #F0EAD6; */
+  /* background-color: rgba(50, 98, 153, 0.5);; */
+  position: fixed;
+  top: 5px;
+  left: 20px;
+}
+
+.logo {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.socials {
+  position: fixed;
+  top: 250px;
+  left: 15px;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: 100;
+}
+
+.socials a {
+  color: black;
+  padding: 0.2rem;  
+  opacity: 30%;
+  cursor: pointer;
+}
+
+.socials a:hover {
+  opacity: 90%;
+  background-color: white;
+}
+
+.socials a:visited {
+  color: aqua;
+}

@@ -1,0 +1,25 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+  color: #F0EAD6;
+  background-color: #326299;
+  height: 50px;
+}
+
+nav {
+  line-height: 3rem;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 3rem;
+}
+
+li a {
+  text-decoration: none;
+  color: #F0EAD6;
+  display: block;
+  width: 100%;
+}
